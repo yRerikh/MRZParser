@@ -5,7 +5,7 @@
 //  Created by Roman Mazeev on 15.06.2021.
 //
 
-public struct MRZParser {
+public struct MRZParserPerformer {
     private let formatter: MRZFieldFormatter
 
     public init(isOCRCorrectionEnabled: Bool) {

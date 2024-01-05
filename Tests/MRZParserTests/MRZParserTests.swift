@@ -9,7 +9,7 @@ import XCTest
 @testable import MRZParser
 
 final class MRZParserTests: XCTestCase {
-    private var parser: MRZParser!
+    private var parser: MRZParserPerformer!
 
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -21,7 +21,7 @@ final class MRZParserTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        parser = MRZParser(isOCRCorrectionEnabled: true)
+        parser = MRZParserPerformer(isOCRCorrectionEnabled: true)
     }
 
     func testTD1() {
