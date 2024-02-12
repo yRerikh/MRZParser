@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRZParser'
-  s.version          = '1.1.6'
-  s.summary          = 'A short description of CoverySDK.'
+  s.version          = '1.1.7'
+  s.summary          = 'MRZParser'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    MRZParser with Cocoapods support.
                        DESC
 
-  s.homepage         = 'https://github.com/Eugene Rerikh/MRZParser'
+  s.homepage         = 'https://www.appintheair.mobi/'
   s.license          = { :type => 'MIT' }
-  s.author           = { 'MRZParser' => 'y.rerikh@soloway.tech' }
+  s.author           = { 'MRZParser' => 'opensource@appintheair.mobi' }
   s.source           = { :git => 'https://github.com/yrerikh/MRZParser.git', :tag => s.version.to_s }
 
   s.swift_version = '5.9'
